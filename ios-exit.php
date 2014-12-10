@@ -8,7 +8,7 @@
 /*****************************************************/
 
 var exitmsg = "Shhh! Don\'t tell anyone, but we\'ll give you a coupon to save 15%.\n\nCopy your coupon code from the space below.\n\nCoupon Code:";
-var exitcode = "XMUBCH15";
+var exitcode = "ABCD123";
 var siteurl = "techsock.com"; //No http:// needed
 
 var iOS = (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false);
