@@ -20,7 +20,7 @@ Once these criteria are met, iOS Exit Offer will display this prompt:
 
 `<script src="ios-exit.js"></script>`
 
-####Wordpress & Similar CMS Users (Alternate Installation Option):
+#####Wordpress & Similar CMS Users (Alternate Installation Option):
 Use php version and add the following to the footer of you theme:
 
 `<?php include_once("ios-exit.php") ?>`
