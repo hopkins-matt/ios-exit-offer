@@ -1,9 +1,10 @@
 <script>
 /*****************************************************/
 ///////////////////////////////////////////////////////
-//    iOS Exit Offers - https://github.com/          //
-//    Copyright (c) 2014 Matthew Hopkins             //
-//    This notice MUST stay intact for legal use     //
+//    iOS Exit Offers - http://bit.ly/iosexit        //
+//    Copyright (c) 2014 Matthew Hopkins.            //
+//    If you wish to remove this attribution,        //
+//    please email info@tecksock.com for details.    //
 ///////////////////////////////////////////////////////
 /*****************************************************/
 
@@ -30,10 +31,10 @@ internalLinks(); //Add OnClick Event to all Internal Links
 function getCookie(c_name) {
     if (document.cookie.length > 0) {
         c_start = document.cookie.indexOf(c_name + "=");
-        if (c_start != -1) {
+        if (c_start !== -1) {
             c_start = c_start + c_name.length + 1;
             c_end = document.cookie.indexOf(";", c_start);
-            if (c_end == -1) c_end = document.cookie.length;
+            if (c_end === -1) c_end = document.cookie.length;
             return unescape(document.cookie.substring(c_start, c_end));
         }
     }
@@ -44,7 +45,7 @@ function setCookie(c_name, value, expiredays) {
     var exdate = new Date();
     exdate.setDate(exdate.getDate() + expiredays);
     document.cookie = c_name + "=" + escape(value) +
-        ((expiredays == null) ? "" : ";path=/;expires=" + exdate.toUTCString());
+        ((expiredays === null) ? "" : ";path=/;expires=" + exdate.toUTCString());
 }
 
 function exitOffer() {
@@ -52,7 +53,7 @@ function exitOffer() {
     if (iOS === true) {
         //Check to see if user has been shown coupon before
         couponcode = getCookie('couponcode');
-        if (couponcode != null && couponcode !== "") {
+        if (couponcode !== null && couponcode !== "") {
 
         } else {
             coup_timer = window.setTimeout(function() {
@@ -75,7 +76,7 @@ function checkInternal() {
     //Check to see if internal link was followed
     internal = getCookie('internal');
     if (internal !== null && internal !== "") {
-        if (internal == "zero") {
+        if (internal === "zero") {
             exitOffer();
         } else {
             window.setTimeout(function() {
@@ -100,7 +101,7 @@ function checkCookie() {
     pagename = getCookie(cleantitle);
     if (pagename !== null && pagename !== "") {
         lastpage = getCookie('lastpage');
-        if (lastpage !== null && lastpage !== "" && lastpage == cleantitle) {
+        if (lastpage !== null && lastpage !== "" && lastpage === cleantitle) {
             //console.log('samepage-refreshed');
             setCookie('lastpage', cleantitle, 1);
         } else {
