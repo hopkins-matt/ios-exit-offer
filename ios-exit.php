@@ -4,7 +4,7 @@
 //    iOS Exit Offers - http://bit.ly/iosexit        //
 //    Copyright (c) 2014 Matthew Hopkins.            //
 //    If you wish to remove this attribution,        //
-//    please email info@tecksock.com for details.    //
+//    please email info@techsock.com for details.    //
 ///////////////////////////////////////////////////////
 /*****************************************************/
 
