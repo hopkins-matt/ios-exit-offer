@@ -1,8 +1,9 @@
 /*****************************************************/
 ///////////////////////////////////////////////////////
-//    iOS Exit Offers - https://github.com/          //
-//    Copyright (c) 2014 Matthew Hopkins             //
-//    This notice MUST stay intact for legal use     //
+//    iOS Exit Offers - http://bit.ly/iosexit        //
+//    Copyright (c) 2014 Matthew Hopkins.            //
+//    If you wish to remove this attribution,        //
+//    please email info@techsock.com for details.    //
 ///////////////////////////////////////////////////////
 /*****************************************************/
 
