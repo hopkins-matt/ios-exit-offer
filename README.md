@@ -3,7 +3,7 @@
 
 **Prettier Version of this: [http://hopkins-matt.github.io/ios-exit-offer/](http://hopkins-matt.github.io/ios-exit-offer/)**
 
-iOS Exit Offer allows you to offer users you are navigating out of your site a coupon code or other offer. iOS Exit Offer is a free to use (both personal and commercial) javascript, just keep the credit intact at the top of the script. Those who really like the script are encouraged to link back to techsock.com or donate via techsock.com
+iOS Exit Offer allows you to offer users you are navigating out of your site a coupon code or other offer. iOS Exit Offer is a free to use (both personal and commercial) javascript script, just keep the credit intact at the top of the script. Those who really like the script are encouraged to link back to techsock.com or donate via techsock.com
 
 ##How does it work?
 iOS Exit Offer utilizes cookies to meet specific criteria before displaying the prompt.
