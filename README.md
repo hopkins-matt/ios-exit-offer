@@ -13,7 +13,7 @@ iOS Exit Offer utilizes cookies to meet specific criteria before displaying the 
 
 Once these criteria are met, iOS Exit Offer will display this prompt:
 
-![iOS Exit Offer Prompt](https://techsock.com/content/public/upload/ios-exit-prompt.png)
+![iOS Exit Offer Prompt](https://techsock.com/content/images/2016/08/ios-exit-prompt.png)
 
 ##Installation
 1. Copy script into your chosen directory
